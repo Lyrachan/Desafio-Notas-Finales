@@ -1,0 +1,14 @@
+body {
+    background-image: url(../img/4a65abeead3a8d113bccfee5d5d239f4.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    font-family: 'Lobster', cursive;
+}
+
+table {
+    font-family: 'Crimson Text', serif;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Finales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="container-fluid">
+            <h1 class="display-2 fw-bold text-white">Notas finales</h1>
+            <p class="text-white fw-light"><b>Nombre:</b> <span id="spannombre"></span></p>
+            <p class="text-white fw-light"><b>Carrera:</b> <span id="spancarrera"></span></p>
+        </header>
+
+        <table class="table fw-light">
+            <thead class="table-dark">
+                <tr>    <!-- Es más cómodo crear las tr's por separado para poder estilizar -->
+                    <th>Ramo</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Promedio</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td id="nota1html"></td>
+                    <td id="nota2html"></td>
+                    <td id="nota3html"></td>
+                    <td id="promediohtml"></td>            
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td id="nota1css"></td>
+                    <td id="nota2css"></td>
+                    <td id="nota3css"></td>
+                    <td id="promediocss"></td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td id="nota1js"></td>
+                    <td id="nota2js"></td>
+                    <td id="nota3js"></td>
+                    <td id="promediojs"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><b>Promedio final:</b></td>
+                    <td id="promediofinal"></td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"crossorigin="anonymous"></script>				
+    <script src="assets/js/program.js"></script>
+</body>
+</html>
